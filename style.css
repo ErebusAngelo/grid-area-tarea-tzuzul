@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: rgb(250, 128, 114, 0.50);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+ 
+  .container {
+   
+    gap: 15px;
+    width: 1270px;
+    height: 920px;
+
+  display: grid;
+  grid-template-areas:
+"pieza-1 pieza-1  pieza-2  pieza-2  pieza-2  pieza-3  pieza-3"
+"pieza-1 pieza-1  pieza-4  pieza-4  pieza-5  pieza-3  pieza-3"
+"pieza-6  pieza-7  pieza-4  pieza-4  pieza-5  pieza-3  pieza-3"
+"pieza-6  pieza-8  pieza-8  pieza-9  pieza-10  pieza-11  pieza-11"
+"pieza-6  pieza-8  pieza-8  pieza-9  pieza-10  pieza-12  pieza-12"
+"pieza-13  pieza-13  pieza-13  pieza-14  pieza-14  pieza-12  pieza-12"
+"pieza-13  pieza-13  pieza-13  pieza-14  pieza-14  pieza-15  pieza-15"
+  }
+
+  
+  
+  
+   
+    
+
+  
+
+
+  .pieza-1{
+      
+      border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-1;
+    background-color: aqua;
+    background-image: url(./item-1.png);
+    
+  }
+
+    
+  
+  .pieza-2{
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-2;
+    background-color: aqua;
+    background-image: url(./item-2.png);
+
+  }
+
+  .pieza-3{
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-3;
+    background-color: aqua;
+    background-image: url(./item-3.png);
+  }
+  .pieza-4{
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-4;
+    background-color: aqua;
+    background-image: url(./item-4.png);
+  }
+  .pieza-5{
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-5;
+    background-color: aqua;
+    background-image: url(./item-5.png);
+  }
+  .pieza-6{
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-6;
+    background-color: aqua;
+    background-image: url(./item-6.png);
+  }
+  .pieza-7{
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-7;
+    background-color: aqua;
+    background-image: url(./item-7.png);
+  }
+  .pieza-8{
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-8;
+    background-color: aqua;
+    background-image: url(./item-8.png);
+  }
+  .pieza-9{
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-9;
+    background-color: aqua;
+    background-image: url(./item-9.png);
+  }
+  .pieza-10{
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-10;
+    background-color: aqua;
+    background-image: url(./item-10.png);
+  }
+  .pieza-11{
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-11;
+    background-color: aqua;
+    background-image: url(./item-11.png);
+  }
+  .pieza-12{
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-12;
+    background-color: aqua;
+    background-image: url(./item-12.png);
+  }
+  .pieza-13{
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-13;
+    background-color: aqua;
+    background-image: url(./item-13.png);
+  }
+  .pieza-14{
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-14;
+    background-color: aqua;
+    background-image: url(./item-14.png);
+  }
+  .pieza-15{
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-area: pieza-15;
+    background-color: aqua;
+    background-image: url(./item-15.png);
+  }
+
